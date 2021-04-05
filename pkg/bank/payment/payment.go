@@ -37,6 +37,11 @@ func GeneratePayments() *[]types.Payment {
 			Amount: 55,
 			Category: "food",
 		},
+		{
+			ID:     7,
+			Amount: 150,
+			Category: "internet",
+		},
 	}
 
 }
