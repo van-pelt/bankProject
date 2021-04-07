@@ -152,3 +152,10 @@ func ExampleAddBonus_overbonus() {
 	}
 	fmt.Println(card.Balance)
 }
+
+func ExampleTotal() {
+	c := Total(GenerateCard())
+	fmt.Println(c)
+	// Output:
+	// 6500
+}
