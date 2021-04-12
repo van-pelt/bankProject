@@ -154,6 +154,7 @@ func ExampleAddBonus_overbonus() {
 }
 
 func ExampleTotal() {
+	//my example total
 	c := Total(GenerateCard())
 	fmt.Println(c)
 	// Output:
